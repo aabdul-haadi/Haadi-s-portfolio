@@ -18,6 +18,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
+      whileHover={{
+        scale: 1.05, // Slight scale increase on hover
+        y: -5, // Slight upward shift
+        transition: { duration: 0.3 }, // Smooth transition
+      }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="bg-gray-900 rounded-lg overflow-hidden group relative"
     >
