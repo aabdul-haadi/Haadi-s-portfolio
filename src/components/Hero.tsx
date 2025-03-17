@@ -25,9 +25,10 @@ export const Hero: React.FC = () => {
           >
 
             <div className="flex justify-center w-full">
-  <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent leading-normal">
+<h2 className="text-6xl font-bold text-center mb-12 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent leading-normal">
   Web Developer & Designer
-  </h2>
+</h2>
+
 </div>
 
        
