@@ -34,14 +34,14 @@ export const projects = [
     title: "Login & Quiz Platform",
     description: "A responsive login and registration page design.",
     image: loginImg,
-    link: "/projects/login/index.html",
+    link: "https://quiz-app-chi-puce-17.vercel.app/",
     tech: ["HTML", "CSS", "JavaScript"]
   },
   {
     title: "Restaurant Website",
     description: "Modern Animated Restaurant Website using ReactJS + Tailwind + Framer-Motion.",
     image: breakfastImg,
-    link: "/projects/restaurant",
+    link: "https://food-app-tau-lovat.vercel.app/",
     tech: ["HTML", "ReactJs", "TailwindCSS"]
   },
   {
@@ -62,21 +62,21 @@ export const projects = [
     title: "Clock",
     description: "A digital clock with elegant design and real-time updates.",
     image: clockImg,
-    link: "/projects/clock/index.html",
+    link: "https://discount-apply.vercel.app/",
     tech: ["HTML", "CSS", "JavaScript"]
   },
   {
     title: "Wheel Project",
     description: "A fun spinning wheel project for gamification and selection.",
     image: wheelImg,
-    link: "/projects/wheel-project/index.html",
+    link: "https://spin-wheel-bice.vercel.app/",
     tech: ["JavaScript", "CSS", "HTML"]
   },
      {
     title: "Discount Calculator",
     description: "A tool to calculate discounts and savings in real-time.",
     image: shoesImg,
-    link: "/projects/discount/index.html",
+    link: "https://discount-apply.vercel.app/",
     tech: ["HTML", "JavaScript", "CSS"]
   },
 ];

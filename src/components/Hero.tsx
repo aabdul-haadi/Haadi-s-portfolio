@@ -23,9 +23,14 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="relative inline-block"
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
-              Web Developer & Designer
-            </h1>
+
+            <div className="flex justify-center w-full">
+  <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent leading-normal">
+  Web Developer & Designer
+  </h2>
+</div>
+
+       
           </motion.div>
           <motion.p
             initial={{ opacity: 0 }}
