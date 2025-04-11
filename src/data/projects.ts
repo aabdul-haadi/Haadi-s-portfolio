@@ -23,18 +23,20 @@ export const projects = [
     link: "https://talk-to-allah.vercel.app/",
     tech: ["HTML", "CSS", "JavaScript"]
   },
+
   {
-    title: "E-Tutor Platform",
-    description: "An interactive online tutoring platform built with ReactJS, TailwindCSS, and Framer Motion for a smooth user experience.",
-    image: eTutorImg,
-    link: "/projects/e-tutor",
+    title: "Interior Design Platform",
+    description: "A sleek and interactive interior design platform built with ReactJS, TailwindCSS, and Framer Motion for an engaging user experience.",
+    image: eTutorImg, // Update with the appropriate image for the Interior Design platform
+    link: "https://interior-design-website-ashy.vercel.app/",
     tech: ["HTML", "ReactJs", "TailwindCSS", "Framer Motion"]
-  },
+},
+
   {
     title: "Login & Quiz Platform",
     description: "A responsive login and registration page design.",
     image: loginImg,
-    link: "https://quiz-app-chi-puce-17.vercel.app/",
+    link: "https://quiz-ctdr618dp-abdul-haadis-projects-ef84c69f.vercel.app/",
     tech: ["HTML", "CSS", "JavaScript"]
   },
   {
@@ -48,7 +50,7 @@ export const projects = [
     title: "EarthOrbit Website",
     description: "A futuristic space exploration website built with ReactJS, TailwindCSS, and Framer Motion.",
     image: earthOrbitImg,
-    link: "/projects/earth-orbit",
+    link: "https://earth-orbit-nine.vercel.app/",
     tech: ["HTML", "ReactJs", "TailwindCSS", "Framer Motion"]
   },
   {
@@ -80,29 +82,27 @@ export const projects = [
     tech: ["HTML", "JavaScript", "CSS"]
   },
 ];
-
 export const professionalProjects = [
   {
-    title: "Tenants Registration",
-    description: "A comprehensive tenant registration and verification system for Sindh Police.",
-    image: regisImg,
-    link: "/projects/tenants-registration",
-    tech: ["HTML", "CSS", "JavaScript", "Bootstrap"]
+    title: "Reveal",
+    description: "An interactive web platform for revealing project details.",
+    image: "src/assets/milap.png", // Replace with actual image path
+    tech: ["React", "TailwindCSS", "Framer Motion"],
+    gitLink: "https://github.com/shabbirfast/reveal",
   },
   {
-    title: "E-verification",
-    description: "Digital verification platform for streamlining police verification processes.",
-    image: everificationImg,
-    link: "/projects/e-verification",
-    tech: ["HTML", "CSS", "JavaScript", "Bootstrap"]
+    title: "Sindh Police - Tenant System",
+    description: "A system for managing tenants and property information for Sindh Police.",
+    image: "src/assets/regis.png", // Replace with actual image path
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    gitLink: "https://github.com/aabdul-haadi/Sindh-Police---Tenant-System",
   },
   {
     title: "MILAP",
-    description: "Mutual Integration Locating At-risk Person for enhanced police operations.",
-    image: milapImg,
-    link: "/projects/milap",
-    tech: ["React", "TypeScript", "Tailwind CSS"]
+    description: "A social platform to connect people.",
+    image: "src/assets/milap.png", // Replace with actual image path
+    tech: ["React", "TailwindCSS", "Firebase"],
+    gitLink: "https://github.com/aabdul-haadi/MILAP_u",
   },
-
-
 ];
+
