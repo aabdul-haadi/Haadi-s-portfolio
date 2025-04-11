@@ -23,22 +23,12 @@ export const ProfessionalProjects: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
               whileHover={{ y: -10 }}
-              className="bg-gray-800 rounded-xl overflow-hidden group relative transform transition-all duration-300 hover:shadow-2xl"
+              className="bg-gray-800 rounded-xl overflow-hidden group relative transform transition-all duration-300 hover:shadow-xl hover:scale-105"
             >
-              {/* Animated Gradient Border */}
-              {/* <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-300 animate-gradient"></div> */}
-              
-              <div className="relative bg-gray-900 rounded-xl overflow-hidden">
-                {/* Image Container with Overlay */}
-                <div className="relative h-48 overflow-hidden">
-                  <img
-                    src={project.image || '/mnt/data/image.png'} // Using the uploaded image path here
-                    alt={project.title}
-                    className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-300"></div>
-                </div>
+              {/* Enhanced Gradient Border */}
+              <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl opacity-30 group-hover:opacity-100 transition duration-500"></div>
 
+              <div className="relative bg-gray-900 rounded-xl overflow-hidden">
                 {/* Content */}
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-cyan-400 mb-2">{project.title}</h3>
