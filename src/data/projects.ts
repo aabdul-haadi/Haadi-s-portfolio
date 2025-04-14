@@ -57,7 +57,7 @@ export const projects = [
   title: "Digital Agency",
   description: "A digital agency website built with React and styled using Tailwind CSS.",
   image: digitalAgencyImg,
-  link: "/projects/digital-agency/index.html",
+  link: "https://agnecy-website-pearl.vercel.app/",
   tech: ["React", "Tailwind CSS", "JavaScript"]
 },
 
