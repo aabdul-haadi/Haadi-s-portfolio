@@ -2,7 +2,7 @@
 // import { ProjectCard } from './ProjectCard';
 
 // Importing local images
-import chooseImg from "/src/assets/choose.png";
+import digitalAgencyImg from "/src/assets/agency.png";
 import clockImg from "/src/assets/clock.png";
 import shoesImg from "/src/assets/shoes.png";
 import loginImg from "/src/assets/login.png";
@@ -10,10 +10,10 @@ import talktoAllahImg from "/src/assets/talktoAllah.png";
 import wheelImg from "/src/assets/wheel.webp";
 import breakfastImg from "/src/assets/breakfast.png";
 import earthOrbitImg from "/src/assets/earth-orbit.png";
-import eTutorImg from "/src/assets/e-tutor.png";
-import milapImg from "/src/assets/milap.png";
-import regisImg from "/src/assets/regis.png";
-import everificationImg from "/src/assets/everification.png";
+import interiorDesign from "/src/assets/interiorz.png";
+// import milapImg from "/src/assets/milap.png";
+// import regisImg from "/src/assets/regis.png";
+// import everificationImg from "/src/assets/everification.png";
 
 export const projects = [
   {
@@ -27,7 +27,7 @@ export const projects = [
   {
     title: "Interior Design Platform",
     description: "A sleek and interactive interior design platform built with ReactJS, TailwindCSS, and Framer Motion for an engaging user experience.",
-    image: eTutorImg, // Update with the appropriate image for the Interior Design platform
+    image: interiorDesign, // Update with the appropriate image for the Interior Design platform
     link: "https://interior-design-website-ashy.vercel.app/",
     tech: ["HTML", "ReactJs", "TailwindCSS", "Framer Motion"]
 },
@@ -53,13 +53,14 @@ export const projects = [
     link: "https://earth-orbit-nine.vercel.app/",
     tech: ["HTML", "ReactJs", "TailwindCSS", "Framer Motion"]
   },
-  {
-    title: "Choose Emotions",
-    description: "An app designed to manage and track your emotions daily.",
-    image: chooseImg,
-    link: "/projects/choose-emotions/index.html",
-    tech: ["HTML", "CSS/BootStrap", "JavaScript"]
-  },
+{
+  title: "Digital Agency",
+  description: "A digital agency website built with React and styled using Tailwind CSS.",
+  image: digitalAgencyImg,
+  link: "/projects/digital-agency/index.html",
+  tech: ["React", "Tailwind CSS", "JavaScript"]
+},
+
   {
     title: "Clock",
     description: "A digital clock with elegant design and real-time updates.",
